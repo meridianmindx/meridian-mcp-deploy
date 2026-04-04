@@ -1,0 +1,12 @@
+name: filesystem-server
+version: "1.0.0"
+runtime: docker
+port: 8080
+description: MCP filesystem server for file operations
+docker_image: mcp/filesystem-server:latest
+health_check:
+  type: http
+  endpoint: /health
+  timeout_seconds: 10
+  interval_seconds: 30
+  retries: 3

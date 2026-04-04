@@ -1,0 +1,11 @@
+name: custom-mcp-server
+version: "1.0.0"
+runtime: docker
+port: 9000
+description: Template for custom MCP server deployment
+docker_image: custom-mcp:latest
+health_check:
+  type: tcp
+  timeout_seconds: 10
+  interval_seconds: 30
+  retries: 3

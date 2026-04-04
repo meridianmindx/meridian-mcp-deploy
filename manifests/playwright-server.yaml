@@ -1,0 +1,12 @@
+name: playwright-server
+version: "1.0.0"
+runtime: docker
+port: 3000
+description: MCP server for browser automation using Playwright
+docker_image: mcp/playwright-server:latest
+health_check:
+  type: http
+  endpoint: /health
+  timeout_seconds: 15
+  interval_seconds: 30
+  retries: 3
