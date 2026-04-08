@@ -19,17 +19,17 @@ A framework for deploying Model Context Protocol (MCP) servers with automated Do
 
 2. Validate a manifest:
    ```bash
-   ./scripts/mcp-deploy validate manifests/filesystem-server.yaml
+   ./scripts/meridian-mcp-deploy validate manifests/filesystem-server.yaml
    ```
 
 3. Generate Docker Compose file:
    ```bash
-   ./scripts/mcp-deploy generate manifests/*.yaml -o docker-compose.yml
+   ./scripts/meridian-mcp-deploy generate manifests/*.yaml -o docker-compose.yml
    ```
 
 4. Perform health check:
    ```bash
-   ./scripts/mcp-deploy health manifests/filesystem-server.yaml
+   ./scripts/meridian-mcp-deploy health manifests/filesystem-server.yaml
    ```
 
 ## Manifest Schema
@@ -86,7 +86,7 @@ environment:
 ## Architecture
 
 ```
-mcp-deploy-framework/
+meridian-mcp-deploy-framework/
 ├── src/
 │   ├── manifest_schema.py    # Data classes and validation
 │   ├── manifest_parser.py    # YAML parsing

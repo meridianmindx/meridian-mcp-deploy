@@ -5,14 +5,14 @@
 ### From PyPI (recommended)
 
 ```bash
-pip install mcp-deploy
+pip install meridian-mcp-deploy
 ```
 
 ### From source
 
 ```bash
-git clone https://github.com/meridian/mcp-deploy.git
-cd mcp-deploy-framework
+git clone https://github.com/meridian/meridian-mcp-deploy.git
+cd meridian-mcp-deploy-framework
 pip install -r requirements.txt
 ```
 
@@ -21,7 +21,7 @@ pip install -r requirements.txt
 ### 1. Validate a manifest
 
 ```bash
-mcp-deploy validate manifests/filesystem-server.yaml
+meridian-mcp-deploy validate manifests/filesystem-server.yaml
 ```
 
 Output:
@@ -34,7 +34,7 @@ Output:
 ### 2. Generate Docker Compose configuration
 
 ```bash
-mcp-deploy generate manifests/filesystem-server.yaml -o docker-compose.yml
+meridian-mcp-deploy generate manifests/filesystem-server.yaml -o docker-compose.yml
 ```
 
 ### 3. Deploy with Docker Compose
@@ -55,4 +55,4 @@ If you encounter issues:
 
 1. Ensure Python 3.9+ is installed
 2. Check that `pyyaml` and `requests` are installed: `pip install -r requirements.txt`
-3. Validate your manifest syntax with `mcp-deploy validate`
+3. Validate your manifest syntax with `meridian-mcp-deploy validate`

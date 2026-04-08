@@ -9,16 +9,16 @@
 
 ```bash
 # Install
-pip install mcp-deploy  # Coming soon - or clone this repo
+pip install meridian-meridian-mcp-deploy  # Coming soon - or clone this repo
 
 # Validate a manifest
-mcp-deploy validate manifests/filesystem-server.yaml
+meridian-meridian-mcp-deploy validate manifests/filesystem-server.yaml
 
 # Generate Docker Compose configuration
-mcp-deploy generate manifests/filesystem-server.yaml manifests/playwright-server.yaml -o docker-compose.yml
+meridian-meridian-mcp-deploy generate manifests/filesystem-server.yaml manifests/playwright-server.yaml -o docker-compose.yml
 
 # Run health check
-mcp-deploy health manifests/filesystem-server.yaml
+meridian-meridian-mcp-deploy health manifests/filesystem-server.yaml
 ```
 
 ## Features
@@ -33,12 +33,12 @@ mcp-deploy health manifests/filesystem-server.yaml
 
 ```bash
 # From source
-git clone https://github.com/your-org/mcp-deploy.git
-cd mcp-deploy-framework
+git clone https://github.com/meridian-mind/meridian-mcp-deploy.git
+cd meridian-mcp-deploy-framework
 pip install -r requirements.txt
 
 # Or via pip (coming soon)
-pip install mcp-deploy
+pip install meridian-meridian-mcp-deploy
 ```
 
 ## Usage
@@ -46,7 +46,7 @@ pip install mcp-deploy
 ### 1. Validate a Manifest
 
 ```bash
-mcp-deploy validate manifests/filesystem-server.yaml
+meridian-mcp-deploy validate manifests/filesystem-server.yaml
 ```
 
 Output:
@@ -59,7 +59,7 @@ Output:
 ### 2. Generate Docker Compose
 
 ```bash
-mcp-deploy generate manifests/filesystem-server.yaml -o docker-compose.yml
+meridian-mcp-deploy generate manifests/filesystem-server.yaml -o docker-compose.yml
 ```
 
 Output:
@@ -72,7 +72,7 @@ Output:
 ### 3. Perform Health Check
 
 ```bash
-mcp-deploy health manifests/filesystem-server.yaml --retries 3
+meridian-mcp-deploy health manifests/filesystem-server.yaml --retries 3
 ```
 
 Output:
@@ -115,15 +115,15 @@ health_check:
 
 | Command | Description |
 |---------|-------------|
-| `validate <manifest>` | Validate manifest YAML file |
-| `generate <manifests...> -o <output>` | Generate Docker Compose config |
-| `health <manifest> [--retries N]` | Perform health check |
-| `list <manifests...>` | List parsed manifest details |
+| `meridian-meridian-mcp-deploy validate <manifest>` | Validate manifest YAML file |
+| `meridian-meridian-mcp-deploy generate <manifests...> -o <output>` | Generate Docker Compose config |
+| `meridian-meridian-mcp-deploy health <manifest> [--retries N]` | Perform health check |
+| `meridian-meridian-mcp-deploy list <manifests...>` | List parsed manifest details |
 
 ## Project Structure
 
 ```
-mcp-deploy-framework/
+meridian-mcp-deploy-framework/
 ├── src/
 │   ├── cli.py                 # Command-line interface
 │   ├── manifest_parser.py     # YAML manifest parsing
