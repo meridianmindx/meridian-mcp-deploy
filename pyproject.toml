@@ -3,9 +3,9 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "mcp-deploy"
-version = "1.0.0"
-description = "One-command deployment for MCP servers"
+name = "meridian-mcp-deploy"
+version = "1.0.1"
+description = "Meridian-powered one-command deployment for MCP servers"
 readme = "README.md"
 license = {text = "MIT"}
 authors = [
@@ -29,9 +29,9 @@ dependencies = [
 ]
 
 [project.scripts]
-mcp-deploy = "cli:main"
+meridian-mcp-deploy = "cli:main"
 
 [project.urls]
-Homepage = "https://github.com/meridian/mcp-deploy"
-Documentation = "https://github.com/meridian/mcp-deploy#readme"
-Repository = "https://github.com/meridian/mcp-deploy.git"
+Homepage = "https://github.com/meridian-mind/mcp-deploy"
+Documentation = "https://github.com/meridian-mind/mcp-deploy#readme"
+Repository = "https://github.com/meridian-mind/mcp-deploy.git"
