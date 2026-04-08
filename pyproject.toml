@@ -32,6 +32,6 @@ dependencies = [
 meridian-mcp-deploy = "cli:main"
 
 [project.urls]
-Homepage = "https://github.com/meridian-mind/mcp-deploy"
-Documentation = "https://github.com/meridian-mind/mcp-deploy#readme"
-Repository = "https://github.com/meridian-mind/mcp-deploy.git"
+Homepage = "https://github.com/meridianmindx/meridian-mcp-deploy"
+Documentation = "https://github.com/meridianmindx/meridian-mcp-deploy#readme"
+Repository = "https://github.com/meridianmindx/meridian-mcp-deploy.git"
