@@ -1,7 +1,6 @@
 # MCP Deploy Framework
 
-
-[![PyPI version](https://img.shields.io/pypi/v/meridian-mcp-deploy.svg)](https://pypi.org/project/meridian-mcp-deploy/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Build Status](https://github.com/meridianmindx/meridian-mcp-deploy/actions/workflows/build.yml/badge.svg)](https://github.com/meridianmindx/meridian-mcp-deploy/actions/workflows/build.yml)
+[![PyPI version](https://img.shields.io/pypi/v/meridian-mcp-deploy.svg)](https://pypi.org/project/meridian-mcp-deploy/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Build Status](https://github.com/meridianmindx/meridian-mcp-deploy/actions/workflows/build.yml/badge.svg)](https://github.com/meridianmindx/meridian-mcp-deploy/actions/workflows/build.yml) [![Support Ethereum - 0x3B3aD666744F1A96A55f7ef530C27cf694193f10](https://img.shields.io/badge/Support_Ethereum-0x3B3aD666744F1A96A55f7ef530C27cf694193f10-343493?logo=ethereum)](https://etherscan.io/address/0x3B3aD666744F1A96A55f7ef530C27cf694193f10)
 
 **One-command deployment for MCP servers.** Generate Docker Compose configurations, validate manifests, and perform health checks for Model Context Protocol (MCP) servers.
 
