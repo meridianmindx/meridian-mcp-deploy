@@ -1,14 +1,20 @@
 # MCP Deploy Framework
 
-[![PyPI version](https://img.shields.io/pypi/v/meridian-mcp-deploy.svg)](https://pypi.org/project/meridian-mcp-deploy/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Build Status](https://github.com/meridianmindx/meridian-mcp-deploy/actions/workflows/build.yml/badge.svg)](https://github.com/meridianmindx/meridian-mcp-deploy/actions/workflows/build.yml) [![Support Ethereum - 0x3B3aD666744F1A96A55f7ef530C27cf694193f10](https://img.shields.io/badge/Support_Ethereum-0x3B3aD666744F1A96A55f7ef530C27cf694193f10-343493?logo=ethereum)](https://etherscan.io/address/0x3B3aD666744F1A96A55f7ef530C27cf694193f10)
+[![PyPI version](https://img.shields.io/pypi/v/meridian-mcp-deploy.svg)](https://pypi.org/project/meridian-mcp-deploy/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Build Status](https://github.com/meridianmindx/meridian-mcp-deploy/actions/workflows/build.yml/badge.svg)](https://github.com/meridianmindx/meridian-mcp-deploy/actions/workflows/build.yml) [![PyPI downloads](https://img.shields.io/pypi/dm/meridian-mcp-deploy.svg)](https://pypi.org/project/meridian-mcp-deploy/) [![GitHub stars](https://img.shields.io/github/stars/meridianmindx/meridian-mcp-deploy.svg?style=social)](https://github.com/meridianmindx/meridian-mcp-deploy/stargazers)
 
-**One-command deployment for MCP servers.** Generate Docker Compose configurations, validate manifests, and perform health checks for Model Context Protocol (MCP) servers.
+**Deploy MCP servers with one command.** Generate Docker configurations, validate manifests, and perform health checks for Model Context Protocol (MCP) servers. Perfect for developers building AI agent infrastructure.
 
-## Quick Start
+## ⭐ Why this matters
+- Save hours of manual Docker configuration
+- Ensure your MCP server meets deployment standards
+- Built for the growing MCP ecosystem (3,858+ servers)
+- Production-ready with health checks and monitoring
+
+## 🚀 Quick Start
 
 ```bash
 # Install
-pip install meridian-mcp-deploy  # Coming soon - or clone this repo
+pip install meridian-mcp-deploy
 
 # Validate a manifest
 meridian-mcp-deploy validate manifests/filesystem-server.yaml
@@ -20,7 +26,19 @@ meridian-mcp-deploy generate manifests/filesystem-server.yaml manifests/playwrig
 meridian-mcp-deploy health manifests/filesystem-server.yaml
 ```
 
-## Features
+## 📦 Installation
+
+```bash
+# From PyPI (recommended)
+pip install meridian-mcp-deploy
+
+# From source (for development)
+git clone https://github.com/meridianmindx/meridian-mcp-deploy.git
+cd meridian-mcp-deploy
+pip install -e ".[dev]"
+```
+
+## ✨ Features
 
 - **Manifest Validation**: YAML schema validation for MCP server definitions
 - **Docker Compose Generation**: Auto-generate optimized container configurations
@@ -28,21 +46,9 @@ meridian-mcp-deploy health manifests/filesystem-server.yaml
 - **Dependency Resolution**: Python import → apt package mapping (Phase 2)
 - **Connectivity Validator**: Test server connectivity before deployment (Phase 2)
 
-## Installation
+## 📖 Usage Examples
 
-```bash
-# From source
-git clone https://github.com/meridianmindx/meridian-mcp-deploy.git
-cd meridian-mcp-deploy-framework
-pip install -r requirements.txt
-
-# Or via pip (coming soon)
-pip install meridian-mcp-deploy
-```
-
-## Usage
-
-### 1. Validate a Manifest
+### Validate a Manifest
 
 ```bash
 meridian-mcp-deploy validate manifests/filesystem-server.yaml
@@ -55,7 +61,7 @@ Output:
  Description: MCP filesystem server for file operations
 ```
 
-### 2. Generate Docker Compose
+### Generate Docker Compose
 
 ```bash
 meridian-mcp-deploy generate manifests/filesystem-server.yaml -o docker-compose.yml
@@ -68,7 +74,7 @@ Output:
  Services: filesystem-server
 ```
 
-### 3. Perform Health Check
+### Perform Health Check
 
 ```bash
 meridian-mcp-deploy health manifests/filesystem-server.yaml --retries 3
@@ -80,7 +86,7 @@ Performing health check for filesystem-server...
 ✓ Health check passed: HTTP 200 OK
 ```
 
-## Example Manifests
+## 📁 Example Manifests
 
 ### Filesystem Server
 
@@ -110,7 +116,7 @@ health_check:
   timeout: 15
 ```
 
-## CLI Commands
+## 🛠️ CLI Commands
 
 | Command | Description |
 |---------|-------------|
@@ -119,10 +125,10 @@ health_check:
 | `meridian-mcp-deploy health <manifest> [--retries N]` | Perform health check |
 | `meridian-mcp-deploy list <manifests...>` | List parsed manifest details |
 
-## Project Structure
+## 📂 Project Structure
 
 ```
-meridian-mcp-deploy-framework/
+meridian-mcp-deploy/
 ├── src/
 │   ├── cli.py                 # Command-line interface
 │   ├── manifest_parser.py     # YAML manifest parsing
@@ -138,7 +144,7 @@ meridian-mcp-deploy-framework/
 └── scripts/                   # Utility scripts
 ```
 
-## Roadmap
+## 🗺️ Roadmap
 
 - [x] Phase 1: Core CLI, manifest parser, Docker generator, health checks
 - [x] Phase 2: Dependency resolver, connectivity validator
@@ -148,23 +154,29 @@ meridian-mcp-deploy-framework/
 - [ ] Web UI for manifest editing
 - [ ] Enterprise features (RBAC, audit logs)
 
-## Contributing
+## 🤝 Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/my-feature`)
 3. Add tests for new functionality
 4. Submit a pull request
 
-## License
+## 📄 License
 
 MIT License - See [LICENSE](LICENSE) file for details.
 
-## Community
+## 🌐 Community
 
 - **GitHub Issues**: Report bugs and feature requests
 - **Discussions**: Share ideas and ask questions
 - **MCP Discord**: Join the Model Context Protocol community
 
 ---
+
+## ❤️ Support this project
+
+If this tool helps you deploy MCP servers faster, please consider **starring this repository** on GitHub. Stars help other developers discover useful tools!
+
+[⭐ Star this repo](https://github.com/meridianmindx/meridian-mcp-deploy/stargazers) • [💬 Start a discussion](https://github.com/meridianmindx/meridian-mcp-deploy/discussions) • [🐛 Report issues](https://github.com/meridianmindx/meridian-mcp-deploy/issues)
 
 **Built for the MCP ecosystem** • [awesome-mcp-servers](https://github.com/modelcontextprotocol/servers) has 3,858+ stars
