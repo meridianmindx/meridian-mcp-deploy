@@ -2,6 +2,15 @@
 
 [![PyPI version](https://img.shields.io/pypi/v/meridian-mcp-deploy.svg)](https://pypi.org/project/meridian-mcp-deploy/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Build Status](https://github.com/meridianmindx/meridian-mcp-deploy/actions/workflows/build.yml/badge.svg)](https://github.com/meridianmindx/meridian-mcp-deploy/actions/workflows/build.yml) [![PyPI downloads](https://img.shields.io/pypi/dm/meridian-mcp-deploy.svg)](https://pypi.org/project/meridian-mcp-deploy/) [![GitHub stars](https://img.shields.io/github/stars/meridianmindx/meridian-mcp-deploy.svg?style=social)](https://github.com/meridianmindx/meridian-mcp-deploy/stargazers)
 
+
+<div align="center">
+
+[![⭐ Star this repo](https://img.shields.io/github/stars/meridianmindx/meridian-mcp-deploy.svg?style=social)](https://github.com/meridianmindx/meridian-mcp-deploy/stargazers)
+
+**⭐ Star us on GitHub!** — Help others discover this tool.
+
+</div>
+
 **Deploy MCP servers with one command.** Generate Docker configurations, validate manifests, and perform health checks for Model Context Protocol (MCP) servers. Perfect for developers building AI agent infrastructure.
 
 ## ⭐ Why this matters
