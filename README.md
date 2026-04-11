@@ -180,3 +180,13 @@ If this tool helps you deploy MCP servers faster, please consider **starring thi
 [⭐ Star this repo](https://github.com/meridianmindx/meridian-mcp-deploy/stargazers) • [💬 Start a discussion](https://github.com/meridianmindx/meridian-mcp-deploy/discussions) • [🐛 Report issues](https://github.com/meridianmindx/meridian-mcp-deploy/issues)
 
 **Built for the MCP ecosystem** • [awesome-mcp-servers](https://github.com/modelcontextprotocol/servers) has 3,858+ stars
+
+## 💰 Affiliate Disclosure
+
+We participate in affiliate programs for cloud providers. If you sign up using our links, we may earn a commission at no extra cost to you. This helps support the project.
+
+- **AWS**: [Sign up for AWS Free Tier](https://aws.amazon.com/free/?tag=meridian-20)
+- **DigitalOcean**: [Get $200 credit](https://m.do.co/c/meridian-20)
+- **GCP**: [Start with $300 free](https://cloud.google.com/free/?utm_source=meridian)
+
+These links provide you with the same great deals and help us continue building open-source tools.
