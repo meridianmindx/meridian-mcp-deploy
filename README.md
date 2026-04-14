@@ -1,5 +1,10 @@
 # 🚀 MCP Deploy Framework
 
+[![Star us on GitHub](https://img.shields.io/badge/-⭐_Star_Now!-black?logo=github)](https://github.com/meridianmindx/meridian-mcp-deploy)
+
+Help us break the 0-star barrier - your star matters!
+
+
 <div align="center">
 
 [![GitHub Stars](https://img.shields.io/github/stars/meridianmindx/meridian-mcp-deploy?style=for-the-badge)](https://github.com/meridianmindx/meridian-mcp-deploy/stargazers)
