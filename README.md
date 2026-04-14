@@ -7,6 +7,7 @@
 [![Build Status](https://github.com/meridianmindx/meridian-mcp-deploy/actions/workflows/build.yml/badge.svg)](https://github.com/meridianmindx/meridian-mcp-deploy/actions/workflows/build.yml)
 [![PyPI downloads](https://img.shields.io/pypi/dm/meridian-mcp-deploy.svg)](https://pypi.org/project/meridian-mcp-deploy/)
 [![GitHub Repo stars](https://img.shields.io/github/stars/meridianmindx/meridian-mcp-deploy?style=social&label=Star)](https://github.com/meridianmindx/meridian-mcp-deploy/stargazers)
+[![Meridian Tooling](https://img.shields.io/badge/Part_of-Meridian_Tooling_Suite-3498db)](https://github.com/meridianmindx)
 
 <!-- Star CTA -->
 <div>
@@ -43,6 +44,7 @@
 - [Community](#-community)
 - [Contributing](#-contributing)
 - [License](#-license)
+- [See Also](#-see-also)
 
 ## 🔥 Why This Tool Matters
 
@@ -147,6 +149,39 @@ We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 ## 📄 License
 
 MIT License - see [LICENSE](LICENSE) for details.
+
+---
+
+## 🔗 See Also
+
+**Part of the Meridian Tooling Suite** – Complementary tools for AI agent development:
+
+### 🚀 [Meridian CrewAI Agent Deployment Orchestrator](https://github.com/meridianmindx/meridian-crewai-deploy-orchestrator)
+Deploy CrewAI agents anywhere with one command. Automatically analyze agent codebases and generate optimized Docker configurations for cloud deployment.
+
+**Perfect companion for MCP deployments:** Deploy your CrewAI agents alongside MCP servers using the same unified approach.
+
+### 🔄 [Meridian Context Compression](https://github.com/meridianmindx/meridian-context-compression)
+Reduce LLM token usage by 22x while preserving semantic meaning. Cut your OpenAI and Anthropic API costs dramatically with intelligent context compression.
+
+**Works great with MCP:** Compress prompts before sending to expensive LLMs, especially useful when MCP servers retrieve large documents.
+
+### 📦 Installation Bundle
+
+```bash
+# Install the complete Meridian tooling suite
+pip install meridian-mcp-deploy meridian-context-compression
+# Or individually
+pip install meridian-crewai-deploy-orchestrator
+```
+
+### 🎯 Why Use All Three?
+
+1. **meridian-mcp-deploy**: Containerize and deploy your MCP servers
+2. **meridian-crewai-deploy-orchestrator**: Deploy your CrewAI agents
+3. **meridian-context-compression**: Optimize token usage for both
+
+**Together, they provide a complete AI agent deployment and optimization stack.**
 
 ---
 
