@@ -1,3 +1,34 @@
+<!-- schema.org metadata -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareSourceCode",
+  "name": "meridian-mcp-deploy",
+  "description": "One-command MCP server deployment: Automate Docker, Kubernetes & CI/CD for Model Context Protocol servers. Save hours on AI agent infrastructure.",
+  "url": "https://github.com/meridianmindx/meridian-mcp-deploy",
+  "codeRepository": "https://github.com/meridianmindx/meridian-mcp-deploy",
+  "programmingLanguage": "Python",
+  "license": "https://opensource.org/licenses/MIT",
+  "dateCreated": "2026-04-08",
+  "dateModified": "2026-04-14",
+  "keywords": [
+    "MCP",
+    "Model Context Protocol",
+    "Docker",
+    "Kubernetes",
+    "CI/CD",
+    "AI agents",
+    "deployment",
+    "automation"
+  ],
+  "author": {
+    "@type": "Organization",
+    "name": "Meridian Mind",
+    "url": "https://github.com/meridianmindx"
+  }
+}
+</script>
+
 # 🚀 MCP Deploy Framework
 
 <div align="center">
