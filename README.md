@@ -1,56 +1,69 @@
-<!-- schema.org metadata -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareSourceCode",
-  "name": "meridian-mcp-deploy",
-  "description": "One-command MCP server deployment: Automate Docker, Kubernetes & CI/CD for Model Context Protocol servers. Save hours on AI agent infrastructure.",
-  "url": "https://github.com/meridianmindx/meridian-mcp-deploy",
-  "codeRepository": "https://github.com/meridianmindx/meridian-mcp-deploy",
-  "programmingLanguage": "Python",
-  "license": "https://opensource.org/licenses/MIT",
-  "dateCreated": "2026-04-08",
-  "dateModified": "2026-04-14",
-  "keywords": [
-    "MCP",
-    "Model Context Protocol",
-    "Docker",
-    "Kubernetes",
-    "CI/CD",
-    "AI agents",
-    "deployment",
-    "automation"
-  ],
-  "author": {
-    "@type": "Organization",
-    "name": "Meridian Mind",
-    "url": "https://github.com/meridianmindx"
-  }
-}
-</script>
-
 # 🚀 MCP Deploy Framework
 
 <div align="center">
+
+[![GitHub Stars](https://img.shields.io/github/stars/meridianmindx/meridian-mcp-deploy?style=for-the-badge)](https://github.com/meridianmindx/meridian-mcp-deploy/stargazers)
+[![Meridian Tooling](https://img.shields.io/badge/Meridian_Tooling-Suite-blue?logo=github)](https://github.com/meridianmindx)
+[![MCP Deploy](https://img.shields.io/badge/MCP_Deploy-Auto_Config-purple)](https://github.com/meridianmindx/meridian-mcp-deploy)
 
 [![PyPI version](https://img.shields.io/pypi/v/meridian-mcp-deploy.svg)](https://pypi.org/project/meridian-mcp-deploy/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Build Status](https://github.com/meridianmindx/meridian-mcp-deploy/actions/workflows/build.yml/badge.svg)](https://github.com/meridianmindx/meridian-mcp-deploy/actions/workflows/build.yml)
 [![PyPI downloads](https://img.shields.io/pypi/dm/meridian-mcp-deploy.svg)](https://pypi.org/project/meridian-mcp-deploy/)
-[![GitHub Repo stars](https://img.shields.io/github/stars/meridianmindx/meridian-mcp-deploy?style=social&label=Star)](https://github.com/meridianmindx/meridian-mcp-deploy/stargazers)
-[![Meridian Tooling](https://img.shields.io/badge/Part_of-Meridian_Tooling_Suite-3498db)](https://github.com/meridianmindx)
 
-<!-- Star CTA -->
-<div>
+## ⭐ Star This Repository
 
-## ⭐ Star This Repo!
+**If this tool saves you time deploying MCP servers, please star it!**
+
+**Why star?**
+- Shows the project is actively used and maintained
+- Helps other developers discover useful tools
+- Supports open-source sustainability
+- Encourages more features and improvements
+
+**Already helped?** Click the star button at the top right! ⭐
+
+## 🏠 Meridian Tooling Family
+
+This tool is part of the **Meridian Tooling Suite** - a collection of AI deployment and optimization tools:
+
+<div align="center">
+
+[![Meridian Context Compression](https://img.shields.io/badge/Meridian_Context_Compression-22x_token_reduction-green?logo=github)](https://github.com/meridianmindx/meridian-context-compression)
+[![Meridian CrewAI Deploy](https://img.shields.io/badge/Meridian_CrewAI_Deploy-1_command_deployment-orange?logo=github)](https://github.com/meridianmindx/meridian-crewai-deploy-orchestrator)
+[![Meridian MCP Deploy](https://img.shields.io/badge/Meridian_MCP_Deploy-Auto_config_purple?logo=github)](https://github.com/meridianmindx/meridian-mcp-deploy)
+
+</div>
+
+### 🔗 Related Tools
+
+| Tool | Purpose | Key Feature |
+|------|---------|-------------|
+| **[meridian-context-compression](https://github.com/meridianmindx/meridian-context-compression)** | Reduce LLM token usage | 22x compression for CrewAI workflows |
+| **[meridian-crewai-deploy-orchestrator](https://github.com/meridianmindx/meridian-crewai-deploy-orchestrator)** | Deploy CrewAI agents | One-command Docker & cloud deployment |
+| **[meridian-mcp-deploy](https://github.com/meridianmindx/meridian-mcp-deploy)** | Deploy MCP servers | Automatic configuration & CI/CD |
+
+### 📦 Install All Meridian Tools
+
+```bash
+# Install the complete Meridian Tooling Suite
+pip install meridian-context-compression meridian-crewai-deploy-orchestrator meridian-mcp-deploy
+```
+
+### 🤝 Cross-Tool Integration
+
+These tools are designed to work together:
+1. Use **context-compression** to optimize your agent prompts
+2. Use **crewai-deploy-orchestrator** to containerize and deploy
+3. Use **mcp-deploy** to set up MCP servers for your deployed agents
+
+---
 
 **If this tool saves you time deploying MCP servers, please star it!** Stars help other developers discover useful tools.
 
 [![Star us on GitHub](https://img.shields.io/badge/-⭐_Star_this_repo-black?style=for-the-badge&logo=github)](https://github.com/meridianmindx/meridian-mcp-deploy/stargazers)
 
 </div>
-
 <!-- Try It Now -->
 <div>
 
