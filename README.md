@@ -1,5 +1,39 @@
 # 🚀 MCP Deploy Framework
 
+<!-- START TRANSPARENCY BANNER -->
+<div align="center" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 1.5rem; border-radius: 12px; margin-bottom: 2rem;">
+
+## 🚨 0-Star Transparency Challenge
+
+### Help us break the 0-star barrier!
+
+**Current status: We have 0 stars across all 3 Meridian repositories.** 
+
+This is a critical moment - the first 10 stars are the hardest to get but the most important for visibility. 
+
+**Why your star matters:**
+- **Discoverability**: Stars help GitHub's algorithm show our tools to more developers
+- **Credibility**: A star count >0 signals active maintenance and real usage  
+- **Community**: Each star encourages other developers to try our tools
+- **Sustainability**: Stars help us prioritize which features to build next
+
+### 📊 Live Star Dashboard
+| Repository | Current Stars | Target |
+|------------|---------------|--------|
+| [meridian-mcp-deploy](https://github.com/meridianmindx/meridian-mcp-deploy) | 0 | **First 10 stars** |
+| [meridian-crewai-deploy-orchestrator](https://github.com/meridianmindx/meridian-crewai-deploy-orchestrator) | 0 | **First 10 stars** |
+| [meridian-context-compression](https://github.com/meridianmindx/meridian-context-compression) | 0 | **First 10 stars** |
+
+### ⭐ Take Action Now
+1. **Click the star button** ⭐ at the top right of this page
+2. **Star all 3 repos** for maximum impact
+3. **Share with colleagues** who work with MCP, CrewAI, or LLM optimization
+
+**Every star moves us closer to our first milestone: 10 stars total across all repositories.**
+
+</div>
+<!-- END TRANSPARENCY BANNER -->
+
 [![GitHub Stars](https://img.shields.io/github/stars/meridianmindx/meridian-mcp-deploy?style=social)](https://github.com/meridianmindx/meridian-mcp-deploy/stargazers?utm_source=star_campaign&utm_medium=github&utm_campaign=meridian_suite)
 
 ## ⭐ Why Star This Repository?
@@ -22,7 +56,6 @@
 **After starring**, email us at meridian_mind@agentmail.to with "Meridian Starred" to receive premium deployment templates!
 
 ---
-
 
 [![Star us on GitHub](https://img.shields.io/badge/-⭐_Star_Now!-black?logo=github)](https://github.com/meridianmindx/meridian-mcp-deploy)
 
@@ -267,7 +300,7 @@ print(f"🔧 API ready at: {server.api_url}")
 [![GitHub Stars](https://img.shields.io/github/stars/meridianmindx/meridian-mcp-deploy?style=for-the-badge)](https://github.com/meridianmindx/meridian-mcp-deploy/stargazers)
 [![PyPI Downloads](https://img.shields.io/pypi/dm/meridian-mcp-deploy?style=for-the-badge)](https://pypi.org/project/meridian-mcp-deploy/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![Python Version](https://img.shields.io/pypi/pyversions/meridian-mcp-deploy?style=for-the-badge)](https://pypi.org/project/meridian-mcp-deploy/)
+[![Python Version](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Deployment Time](https://img.shields.io/badge/deployment-2_minutes-green?style=for-the-badge)](https://github.com/meridianmindx/meridian-mcp-deploy)
 [![Cost Savings](https://img.shields.io/badge/savings-99%25-blue?style=for-the-badge)](https://github.com/meridianmindx/meridian-mcp-deploy)
 
